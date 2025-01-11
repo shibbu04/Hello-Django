@@ -1,0 +1,36 @@
+# # Project Structure
+# myproject/
+# ├── Dockerfile
+# ├── docker-compose.yml
+# ├── requirements.txt
+# ├── manage.py
+# └── myproject/
+#     ├── __init__.py
+#     ├── settings.py
+#     ├── urls.py
+#     └── api/
+#         ├── __init__.py
+#         ├── views.py
+#         └── urls.py
+
+# # Step 1: Django Setup Instructions
+# 1. Install Python from https://www.python.org/downloads/
+# 2. Open Command Prompt and run:
+# pip install django
+# pip install mysqlclient
+# pip install djangorestframework
+
+# 3. Create project:
+# django-admin startproject myproject
+# cd myproject
+
+
+# #Running without Docker: 
+# python -m venv venv
+# venv\Scripts\activate
+# pip install -r requirements.txt
+# python manage.py migrate
+# python manage.py runserver
+
+# Running with Docker:
+# docker-compose up --build
