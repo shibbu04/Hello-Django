@@ -87,7 +87,7 @@ python manage.py runserver
 ```
 
 - Your project will now be available at: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-- And your API will now be available at: [http://127.0.0.1:8000/](http://127.0.0.1:8000/api/hello)
+- And your API will now be available at: [http://127.0.0.1:8000/](http://127.0.0.1:8000/api/hello/)
 
 ---
 
